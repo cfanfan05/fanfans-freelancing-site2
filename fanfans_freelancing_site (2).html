@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fanfan's Freelancing</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #1e293b;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 120px;
+      margin-bottom: 1rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #334155;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #1e293b;
+    }
+    .contact {
+      background: #e2e8f0;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin: 0.5rem 0 0.2rem;
+    }
+    input, textarea {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+    }
+    button {
+      padding: 0.7rem;
+      background-color: #1e293b;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #334155;
+    }
+    footer {
+      background: #1e293b;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Fanfan’s Freelance.png" alt="Fanfan's Freelance Logo" />
+    <h1>Fanfan's Freelancing</h1>
+    <p>Graphic Design | Writing | Web Building</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm Caleb Fanfan — a college student studying Computer Science with a passion for creativity and technology. I’m proficient in C++ and Java, and I’ve helped create websites, apps, and logos. My mission is to help clients build their digital presence through powerful design and strategic solutions.</p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li><strong>Web Building</strong> – Clean, responsive websites tailored to your needs</li>
+      <li><strong>Writing</strong> – Articles, blogs, content writing, resumes</li>
+      <li><strong>Graphic Design</strong> – Logos, banners, social media graphics</li>
+      <li><strong>Marketing</strong> – Digital marketing strategies & content plans</li>
+      <li><strong>Virtual Assistance</strong> – Email management, scheduling, research</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+      <p><strong>Phone:</strong> (617) 615-2267</p>
+      <p><strong>Email:</strong> <a href="mailto:fanfancaleb@gmail.com">fanfancaleb@gmail.com</a></p>
+      <p><em>LinkedIn coming soon!</em></p>
+      <h3>Send a Message</h3>
+      <form action="https://formspree.io/f/mwkggqek" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Fanfan's Freelancing. All rights reserved.</p>
+  </footer>
+</body>
+</html>
